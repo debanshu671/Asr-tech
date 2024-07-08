@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+ 
+  .portimgSize{
+    width: 380px;
+    height: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .fix_wrap{
+    width:1200px;
+    max-width: 100%;
+    margin:0 auto;
+  }
+  .paragraph{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: "400";
+    color: #000000;
+  }
+  .poppins{
+    font-family: "Poppins", sans-serif;
+  }
+  .fraunces{
+    font-family: "Fraunces", serif;
+  }
+  .mulish{
+  font-family: "Mulish", sans-serif;;
+  }
+  .inter{
+    font-family: "Inter", sans-serif;
+  }
+  .fairplay{
+    font-family: "Playfair Display", serif;
+  }
+  .monstret{
+    font-family: "Montserrat", sans-serif;
+  }
