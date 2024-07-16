@@ -21,30 +21,30 @@ const Portfolios = () => {
   return (
     <div >
       <Header />
-<div className='px-[10%] py-10'>
-      <div className='text-center poppins text-6xl font-semibold text-[#161C2D] pb-10'>Our Previous Works</div>
+<div className='px-[10%] py-10 m-auto max-w-[100%]'>
+      <div className='text-center poppins md:text-6xl text-3xl font-semibold text-[#161C2D] pb-10'>Our Previous Works</div>
 {/*--first section start--*/}
 
 
-      <div className='flex justify-between shadow shadow-blue-100 shadow-2xl'>
-<div className='w-[33%] pl-20'>
+      <div className='md:flex md:justify-between shadow shadow-blue-100 shadow-2xl'>
+<div className='md:w-[33%] md:pl-20'>
 
-  <h3 className='fairplay font-bold text-4xl text-[#1B2025] pt-24'>An Ecommerse App</h3>
-  <p className='monstret font-medium text-xs text-[#8C93BD] py-6'>App Design,Prototype,IIlustration</p>
+  <h3 className='fairplay font-bold md:text-4xl text-2xl text-[#1B2025] md:pt-24 pt-12'>An Ecommerse App</h3>
+  <p className='monstret font-medium text-xs text-[#8C93BD] md:py-6 py-2'>App Design,Prototype,IIlustration</p>
   <button style={{
     backgroundImage:`url(${button})`,
     backgroundSize:'cover',
     backgroundPosition:'center'
 
-  }} className='w-56 h-14 pb-5 monstret font-bold text-xs text-white tracking-[2px]'>View Project</button>
+  }} className='md:w-56 md:h-14 w-30 h-7 md:pb-12 pb-10 monstret font-bold text-xs text-white md:tracking-[2px] px-4 py-4'>View Project</button>
 </div>
 
 
 {/*---*/}
-<div className='w-[33%]'><img src={ecomimg} alt=''/></div>
+<div className='md:w-[33%]'><img src={ecomimg} alt='' className='w-full'/></div>
 
 {/*---*/}
-<div className='w-[33%] relative'>
+<div className='md:w-[33%] relative md:block hidden'>
 
 
 <div className='w-32 h-32 absolute top-8 left-8'><img src={fsticon} alt='' className='w-full' /></div>
@@ -62,9 +62,9 @@ const Portfolios = () => {
       {/*--first section end---*/}
 
       {/*--second section start---*/}
-      <div className='flex justify-between shadow shadow-blue-100 shadow-2xl pt-12'>
+      <div className='md:flex md:justify-between shadow shadow-blue-100 shadow-2xl pt-12'>
 
-      <div className='w-[25%] relative'>
+      <div className='w-[25%] relative md:block hidden'>
 
 
 <div className='w-32 h-32 absolute top-8 left-8'><img src={fsticon} alt='' className='w-full' /></div>
@@ -76,22 +76,22 @@ const Portfolios = () => {
 </div>
 
 {/*--*/}
-<div className='w-[33%]'><img src={greenimg} alt=''/></div>
+<div className='md:w-[33%]'><img src={greenimg} alt=''/></div>
 
 {/*---*/}
 
-<div className='w-[33%] pl-20'>
+<div className='md:w-[33%] md:pl-20'>
 
-  <h3 className='fairplay font-bold text-4xl text-[#1B2025] pt-24'>Beautiful<br/>
-Landing Page<br/>
+  <h3 className='fairplay font-bold md:text-4xl text-2xl text-[#1B2025] md:pt-24 pt-12'>Beautiful
+Landing Page
 for real estate</h3>
-  <p className='monstret font-medium text-xs text-[#8C93BD] py-6'> Web Design</p>
+  <p className='monstret font-medium text-xs text-[#8C93BD] md:py-6 py-2'> Web Design</p>
   <button style={{
     backgroundImage:`url(${greenbtn})`,
     backgroundSize:'cover',
     backgroundPosition:'center'
 
-  }} className='w-56 h-14 pb-5 monstret font-bold text-xs text-white tracking-[2px]'>View Project</button>
+  }} className='md:w-56 md:h-14 w-30 h-7 md:pb-12 pb-10 monstret font-bold text-xs text-white md:tracking-[2px] px-4 py-4'>View Project</button>
 </div>
 
 {/*---*/}
@@ -101,25 +101,25 @@ for real estate</h3>
 
        {/*--Third section start---*/}
 
-       <div className='flex justify-between shadow shadow-blue-100 shadow-2xl pt-12'>
-<div className='w-[33%] pl-20'>
+       <div className='md:flex md:justify-between shadow shadow-blue-100 shadow-2xl pt-12'>
+<div className='md:w-[33%] md:pl-20'>
 
-  <h3 className='fairplay font-bold text-4xl text-[#1B2025] pt-24'>Mobile food <br/>app sign up <br/>flow</h3>
-  <p className='monstret font-medium text-xs text-[#8C93BD] py-6'>Illustration, App Design</p>
+  <h3 className='fairplay font-bold md:text-4xl text-2xl text-[#1B2025] md:pt-24 pt-12'>Mobile food app sign up flow</h3>
+  <p className='monstret font-medium text-xs text-[#8C93BD] md:py-6 py-2'>Illustration, App Design</p>
   <button style={{
     backgroundImage:`url(${vltbtn})`,
     backgroundSize:'cover',
     backgroundPosition:'center'
 
-  }} className='w-56 h-14 pb-5 monstret font-bold text-xs text-white tracking-[2px]'>View Project</button>
+  }} className='md:w-56 md:h-14 w-30 h-7 md:pb-12 pb-10 monstret font-bold text-xs text-white md:tracking-[2px] px-4 py-4'>View Project</button>
 </div>
 
 
 {/*---*/}
-<div className='w-[33%]'><img src={mobilefood} alt=''/></div>
+<div className='md:w-[33%]'><img src={mobilefood} alt=''/></div>
 
 {/*---*/}
-<div className='w-[33%] relative'>
+<div className='w-[33%] relative md:block hidden'>
 
 
 <div className='w-32 h-32 absolute top-8 left-8'><img src={fsticon} alt='' className='w-full' /></div>
@@ -138,9 +138,9 @@ for real estate</h3>
 
            {/*--fourth section start---*/}
 
-           <div className='flex justify-between shadow shadow-blue-100 shadow-2xl pt-12'>
+           <div className='md:flex md:justify-between shadow shadow-blue-100 shadow-2xl pt-12'>
 {/*----- */}
-           <div className='w-[33%] relative'>
+           <div className='md:w-[33%] relative md:block hidden'>
 
 
 <div className='w-32 h-32 absolute top-8 left-8'><img src={fsticon} alt='' className='w-full' /></div>
@@ -154,21 +154,21 @@ for real estate</h3>
 {/*------*/}
 
 
-<div className='w-[33%] pl-20'>
+<div className='md:w-[33%] md:pl-20'>
 
-  <h3 className='fairplay font-bold text-4xl text-[#1B2025] pt-24'>Carousel user<br /> interface <br/>design</h3>
-  <p className='monstret font-medium text-xs text-[#8C93BD] py-6'>App Design,Prototype,IIlustration</p>
+  <h3 className='fairplay font-bold md:text-4xl text-2xl text-[#1B2025] md:pt-24 pt-12'>Carousel user interface design</h3>
+  <p className='monstret font-medium text-xs text-[#8C93BD] md:py-6 py-2'>App Design,Prototype,IIlustration</p>
   <button style={{
     backgroundImage:`url(${vltbtn})`,
     backgroundSize:'cover',
     backgroundPosition:'center'
 
-  }} className='w-56 h-14 pb-5 monstret font-bold text-xs text-white tracking-[2px]'>View Project</button>
+  }} className='md:w-56 md:h-14 w-30 h-7 md:pb-12 pb-10 monstret font-bold text-xs text-white md:tracking-[2px] px-4 py-4'>View Project</button>
 </div>
 
 
 {/*---*/}
-<div className='w-[33%]'><img src={carasol} alt=''/></div>
+<div className='md:w-[33%]'><img src={carasol} alt=''/></div>
 
 {/*---*/}
 
@@ -180,7 +180,7 @@ for real estate</h3>
 
               {/*--button section start---*/}
 
-              <div className='w-[200px] h-[50px] bg-[#FF002A] flex items-center rounded-xl m-auto my-16'>
+              <div className='w-[200px] h-[50px] bg-[#FF002A] flex items-center rounded-xl m-auto md:my-16 mt-20'>
             <Link to='./Portfolios' className='m-auto pl-6 font-normal text-xl'>View more</Link>
             <GoArrowRight className='mr-[20px] text-2xl cursor-pointer'/>
 

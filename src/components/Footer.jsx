@@ -12,9 +12,9 @@ const Footer = () => {
     <>
       <div className="border-solid border-black border-[1px] mt-20"></div>
 
-      <div className="px-[10%] py-[80px] flex justify-between ">
+      <div className="px-[10%] py-[80px] md:flex md:justify-between ">
         {/*left section-start---------*/}
-        <div className="w-[260px]">
+        <div className="md:w-[260px] w-[200px]">
           <img src={logo} alt="" className="w-full pb-[40px] pr-5" />
           <h2 className="poppins text-xl font-normal text-black">
             hello@navytech.com

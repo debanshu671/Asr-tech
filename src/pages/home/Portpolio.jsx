@@ -12,14 +12,14 @@ import Portfolios from '../../pages/Portfolios';
 const Portpolio = () => {
   return (
     <>
-    <div className='max-w-[1200px] m-auto pt-[60px] pb-[60px]'>
+    <div className='px-[10%] m-auto py-16'>
         <div className='text-center'>
-            <p className='text-2xl font-normal text-black pb-3'>Portfolio</p>
-            <h3 className='font-semibold text-4xl pb-[60px]'>Our previous works</h3>
+            <p className='md:text-2xl text-xl font-normal text-black pb-3'>Portfolio</p>
+            <h3 className='font-semibold md:text-4xl text-2xl pb-[60px]'>Our previous works</h3>
         </div>
 
-        <div className='pb-10'>
-           <ul className='flex flex-wrap '>
+        <div className='pb-10 pl-5'>
+           <ul className='flex flex-wrap gap-10 justify-center'>
            <li className='portimgSize'><img src={firstpic} className='w-full' /></li>
            <li className='portimgSize'><img src={secpic} className='w-full'/></li>
            <li className='portimgSize'><img src={thirdpic} className='w-full'/></li>

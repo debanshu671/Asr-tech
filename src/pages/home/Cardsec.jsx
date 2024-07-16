@@ -13,23 +13,23 @@ const Cardsec = () => {
         backgroundImage: `url(${cardbg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-      }} className="py-[80px]"
+      }} className="md:py-20 py-10"
     >
-      <div className="max-w-[1200px] m-auto py-[30px]">
+      <div className="px-[10%] m-auto py-[30px]">
         <div className="text-center">
-          <p className="font-normal text-2xl text-black p-1">Our services</p>
-          <h2 className="font-semibold text-4xl text-black p-4">Growth based services</h2>
+          <p className="font-normal md:text-2xl text-xl text-black p-1">Our services</p>
+          <h2 className="font-semibold md:text-4xl text-2xl text-black p-4">Growth based services</h2>
         </div>
 
        
 
-        <div className="flex justify-between text-center pt-[80px]">
+        <div className="md:flex md:justify-between text-center pt-20  text-center">
      {/*first section start-----*/}
 
-          <div className="w-[320px] h-[377px] bg-[#ffffff] ">
+          <div className="w-[320px] h-[377px] bg-[#ffffff]  m-auto">
 
-          <div className="mt-[25px]">
-            <PiPaintBrushDuotone className="text-[#FF002A] w-[100px] h-[100px] m-auto" />
+          <div className="md:mt-[25px]">
+            <PiPaintBrushDuotone className="text-[#FF002A] w-[100px] h-[100px] m-auto pt-10" />
             <h3 className="font-semibold text-black text-2xl inter pt-[25px] pb-5">Branding and UI/UX</h3>
             <p className="m-auto text-[16px] font-normal px-6 mb-5">
               Lorem ipsum dolor sit amet consectetur. Quam diam augue lectus
@@ -53,9 +53,9 @@ const Cardsec = () => {
            {/*second section start-----*/}
 
           <div className="w-[320px] h-[377px] bg-[#000000] text-white m-auto">
-              <div className="mt-[25px] ">
+              <div className="md:mt-[25px] mt-10">
 
-            <PiGlobeHemisphereWestLight className="text-[#FF002A] w-[100px] h-[100px] m-auto" />
+            <PiGlobeHemisphereWestLight className="text-[#FF002A] w-[100px] h-[100px] m-auto pt-10" />
             <h3 className="font-semibold text-white text-2xl inter pt-[25px] pb-5">Web Development</h3>
             <p className="m-auto text-[16px] font-normal px-6 mb-5">
               Lorem ipsum dolor sit amet consectetur. Quam diam augue lectus
@@ -75,10 +75,10 @@ const Cardsec = () => {
 
 
           {/*third  section start-----*/}
-          <div className="w-[320px] h-[377px] bg-[#fff]">
-          <div className="mt-[25px]">
+          <div className="w-[320px] h-[377px] bg-[#fff] m-auto">
+          <div className="md:mt-[25px] mt-10">
 
-            <PiDeviceMobileLight className="text-[#FF002A] w-[100px] h-[100px] m-auto" />
+            <PiDeviceMobileLight className="text-[#FF002A] w-[100px] h-[100px] m-auto pt-10" />
             <h3 className="font-semibold text-black text-2xl inter pt-[25px] pb-5">Mobile Development</h3>
             <p className="m-auto text-[16px] font-normal px-6 mb-5">
               Lorem ipsum dolor sit amet consectetur. Quam diam augue lectus
@@ -98,11 +98,11 @@ const Cardsec = () => {
 
 
           {/*fourth section start-----*/}
-          <div className="w-[320px] h-[377px] bg-[#000000] text-white">
+          <div className="w-[320px] h-[377px] bg-[#000000] text-white m-auto ">
 
-          <div className="mt-[25px]">
+          <div className="md:mt-[25px] mt-10">
 
-            <PiCreditCardLight className="text-[#FF002A] w-[100px] h-[100px] m-auto" />
+            <PiCreditCardLight className="text-[#FF002A] w-[100px] h-[100px] m-auto pt-10" />
             <h3 className="font-semibold text-white text-2xl inter pt-[25px] pb-5">Graphics Design</h3>
             <p className="m-auto text-[16px] font-normal px-6 mb-5">
               Lorem ipsum dolor sit amet consectetur. Quam diam augue lectus
